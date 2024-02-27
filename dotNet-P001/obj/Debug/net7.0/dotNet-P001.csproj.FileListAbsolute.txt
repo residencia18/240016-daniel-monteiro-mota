@@ -1,0 +1,14 @@
+E:\CEPEDI\DotNet\dotNet-P001\bin\Debug\net7.0\dotNet-P001.exe
+E:\CEPEDI\DotNet\dotNet-P001\bin\Debug\net7.0\dotNet-P001.deps.json
+E:\CEPEDI\DotNet\dotNet-P001\bin\Debug\net7.0\dotNet-P001.runtimeconfig.json
+E:\CEPEDI\DotNet\dotNet-P001\bin\Debug\net7.0\dotNet-P001.dll
+E:\CEPEDI\DotNet\dotNet-P001\bin\Debug\net7.0\dotNet-P001.pdb
+E:\CEPEDI\DotNet\dotNet-P001\obj\Debug\net7.0\dotNet-P001.GeneratedMSBuildEditorConfig.editorconfig
+E:\CEPEDI\DotNet\dotNet-P001\obj\Debug\net7.0\dotNet-P001.AssemblyInfoInputs.cache
+E:\CEPEDI\DotNet\dotNet-P001\obj\Debug\net7.0\dotNet-P001.AssemblyInfo.cs
+E:\CEPEDI\DotNet\dotNet-P001\obj\Debug\net7.0\dotNet-P001.csproj.CoreCompileInputs.cache
+E:\CEPEDI\DotNet\dotNet-P001\obj\Debug\net7.0\dotNet-P001.dll
+E:\CEPEDI\DotNet\dotNet-P001\obj\Debug\net7.0\refint\dotNet-P001.dll
+E:\CEPEDI\DotNet\dotNet-P001\obj\Debug\net7.0\dotNet-P001.pdb
+E:\CEPEDI\DotNet\dotNet-P001\obj\Debug\net7.0\dotNet-P001.genruntimeconfig.cache
+E:\CEPEDI\DotNet\dotNet-P001\obj\Debug\net7.0\ref\dotNet-P001.dll

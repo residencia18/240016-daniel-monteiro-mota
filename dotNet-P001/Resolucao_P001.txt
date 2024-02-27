@@ -1,0 +1,105 @@
+Questão 1 Configuração do Ambiente:
+
+Podemos verificar se o .NET SDK está corretamente instalado no sistema usando alguns comandos no terminal. 
+Aqui estão os comandos básicos para verificar, remover e atualizar o .NET SDK:
+
+Verificar a Versão do .NET SDK Instalado:
+dotnet --version
+
+Listar Todas as Versões do .NET SDK Instaladas:
+dotnet --list-sdks
+
+Remover uma Versão Específica do .NET SDK:
+dotnet sdk uninstall <version>
+
+Atualizar o .NET SDK:
+dotnet --version
+dotnet sdk update
+
+
+Questão 2 Tipos de Dados:
+
+1- sbyte (signed byte):
+
+Faixa de valores: -128 a 127
+exemplo:
+sbyte mySByte = 42;
+
+2- byte (unsigned byte):
+
+Faixa de valores: 0 a 255
+exemplo:
+byte myByte = 200;
+
+3- short (short integer):
+
+Faixa de valores: -32,768 a 32,767
+exemplo:
+short myShort = 30000;
+
+4- ushort (unsigned short integer):
+
+Faixa de valores: 0 a 65,535
+exemplo:
+ushort myUShort = 60000;
+
+5- int (integer):
+
+Faixa de valores: -2,147,483,648 a 2,147,483,647
+exemplo:
+int myInt = 1000000;
+
+6- uint (unsigned integer):
+
+Faixa de valores: 0 a 4,294,967,295
+exemplo:
+uint myUInt = 3000000000;
+
+7- long (long integer):
+
+Faixa de valores: -9,223,372,036,854,775,808 a 9,223,372,036,854,775,807
+exemplo:
+long myLong = 1234567890123456789;
+
+8- ulong (unsigned long integer):
+
+Faixa de valores: 0 a 18,446,744,073,709,551,615
+exemplo:
+ulong myULong = 9876543210987654321;
+
+
+Questão 3 Conversão de Tipos de Dados:
+
+Ao converter uma variável do tipo double para int em C#, a parte fracionária é removida. 
+Se a parte inteira da variável double for maior do que o valor máximo ou menor que 
+o valor mínimo permitido para um int, ocorrerá um estouro, resultando em um comportamento indefinido 
+
+
+Exemplo de como resolver:
+
+using System;
+
+class Conversao
+{
+    static void Main()
+    {
+        // Variável double com parte fracionária
+        double doubleValue = 123.456;
+
+        try
+        {
+            // Tentativa de converter double para int
+            int intValue = Convert.ToInt32(doubleValue);
+
+            // Exibindo o resultado
+            Console.WriteLine($"Valor convertido: {intValue}");
+        }
+        catch (OverflowException ex)
+        {
+            // Tratando exceção em caso de estouro
+            Console.WriteLine($"Erro de estouro: {ex.Message}");
+        }
+    }
+}
+
+
