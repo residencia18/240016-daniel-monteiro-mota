@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Built-By: danie
+Build-Jdk: 17.0.10
+Implementation-Title: cadastro
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.daniel
+Main-Class: com.package.Main
+Created-By: Maven Integration for Eclipse
+
