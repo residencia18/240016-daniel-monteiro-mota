@@ -45,7 +45,7 @@ public class Usuarios implements UserDetails {
     //Metodos do Spring Security
     @Override
     public String getPassword() {
-        return "";
+        return senha;
     }
 
     @Override
